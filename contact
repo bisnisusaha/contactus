@@ -1,0 +1,182 @@
+    <div class='bisnisusaharumahan-contact-form'>
+    <div class='form'>
+    <!-- Custom Contact Form By bisnisusaharumahan start -->
+    <div class='bisnisusaharumahan-contact-title'>
+    Contact Form
+    </div>
+    <form name='contact-form'>
+    <!-- Name Field -->
+    <input class='contact-form-name' id='ContactForm1_contact-form-name' name='name' value="Name" size='30' type='text' onblur='if (this.value == &quot;&quot;) {this.value = &quot;Name&quot;;}' onfocus='if (this.value == &quot;Name&quot;) {this.value = &quot;&quot;;}' />
+    <p></p>
+    <!-- Email ID Field -->
+    <input class='contact-form-email' id='ContactForm1_contact-form-email' name='email' value="Email ID"  size='30' type='text' onblur='if (this.value == &quot;&quot;) {this.value = &quot;Email ID&quot;;}' onfocus='if (this.value == &quot;Email ID&quot;) {this.value = &quot;&quot;;}'/>
+    <p></p>
+    <!-- Message Field -->
+    <textarea class='contact-form-email-message'  id='ContactForm1_contact-form-email-message' name='email-message'  value='Leave Your Message..'  onblur='if (this.value == &quot;&quot;) {this.value = &quot;Leave Your Message..&quot;;}' onfocus='if (this.value == &quot;Leave Your Message..&quot;) {this.value = &quot;&quot;;}'></textarea>
+    <p></p>
+    <!-- Clear Button -->
+    <input class='contact-form-button contact-form-button-submit bisnisusaharumahan-button-color' type='reset' value='Clear'/>
+    <!-- Send Button -->
+    <input class='contact-form-button contact-form-button-submit bisnisusaharumahan-button-color' id='ContactForm1_contact-form-submit' type='button' value='Send'/>
+    <p></p>
+    <!-- Validation -->
+    <div style='text-align: center; max-width: 222px; width: 100%'>
+    <p class='contact-form-error-message' id='ContactForm1_contact-form-error-message'></p>
+    <p class='contact-form-success-message' id='ContactForm1_contact-form-success-message'></p>
+    </div>
+    </form>
+
+  
+
+    </div></div>
+    <style>
+
+    .bisnisusaharumahan-contact-form { 
+        background:#fff; 
+        box-shadow:-1px 2px 3px #ddd; 
+        font:12px arial; 
+        width:100%; 
+        max-width:320px; 
+        margin:20px auto; 
+        padding:15px; 
+        border:1px solid #ddd; 
+    }
+
+    .bisnisusaharumahan-contact-title { 
+        box-shadow:-1px 2px 3px #ddd; 
+        text-shadow:0 1px 1px rgba(0,0,0,.3); 
+        margin:0 0 10px 0; 
+        font-weight:400; 
+        padding:10px 15px; 
+        font:16px Arial; 
+        cursor:pointer; 
+        text-align:center; 
+        color:#fef4e9; 
+        border:solid 1px #36464e; 
+        background:#3e404b; 
+    }
+
+    .contact-form-name,.contact-form-email,.contact-form-email-message { 
+        max-width:320px; 
+        width:100%; 
+        font-weight:bold; 
+    }
+
+    .contact-form-name { 
+        background:#f3f3f3; 
+        border:1px solid #ddd; 
+        box-sizing:border-box; 
+        color:#A0A0A0; 
+        display:inline-block; 
+        font-family:Arial,sans-serif; 
+        font-size:13px; 
+        font-weight:bold; 
+        height:35px; 
+        margin:0; 
+        margin-top:5px; 
+        padding:5px 15px 5px 5px; 
+        box-shadow:inset -2px 2px 3px #ddd; 
+        vertical-align:top; 
+    }
+
+    .contact-form-email { 
+        background-color:#F2F2F2; 
+        border:1px solid #ddd; 
+        box-sizing:border-box; 
+        color:#A0A0A0; 
+        display:inline-block; 
+        font-family:Arial,sans-serif; 
+        font-size:13px; 
+        font-weight:bold; 
+        height:35px; 
+        margin:0; 
+        margin-top:5px; 
+        padding:5px 15px 5px 5px; 
+        vertical-align:top; 
+        box-shadow:inset -2px 2px 3px #ddd; 
+    }
+
+    .contact-form-email:hover,.contact-form-name:hover { 
+        border:1px solid #bebebe; 
+        box-shadow:0 1px 2px rgba(5,95,255,.1); 
+        padding:5px 15px 5px 5px; 
+    }
+
+    .contact-form-email-message:hover { 
+        border:1px solid #bebebe;  
+        box-shadow:0 1px 2px rgba(5,95,255,.1); 
+        padding:10px; 
+    }
+
+    .contact-form-email-message { 
+        background:#FFF; background-color:#f2f2f2; 
+        border:1px solid #ddd; 
+        box-sizing:border-box; 
+        color:#A0A0A0; 
+        display:inline-block; 
+        font-family:arial; 
+        font-size:13px; 
+        margin:0; 
+        margin-top:5px; 
+        padding:10px; 
+        vertical-align:top; 
+        max-width:320px !important; 
+        height:150px; 
+        border-radius:4px; 
+        box-shadow:inset -2px 2px 3px #ddd; 
+    }
+
+    .contact-form-button { 
+        cursor:pointer; 
+        height:32px; 
+        line-height:28px; 
+        font-weight:bold; 
+        border:none; 
+    }
+
+    .contact-form-button { 
+        display:inline-block; 
+        zoom:1; 
+        *display:inline; 
+        vertical-align:baseline; 
+        margin:0 2px; 
+        outline:none; 
+        cursor:pointer; 
+        text-align:center; 
+        text-decoration:none; 
+        font:14px/100% Arial,Helvetica,sans-serif; 
+        padding:.5em 2em .55em; 
+        text-shadow:0 1px 1px rgba(0,0,0,.3); 
+        box-shadow:-1px 2px 3px #ddd; 
+    }
+
+    .contact-form-button:hover { 
+        text-decoration:none; 
+    }
+
+    .contact-form-button:active { 
+        position:relative; 
+        top:1px; 
+    }
+
+    .bisnisusaharumahan-button-color { 
+        color:#fef4e9; 
+        border:solid 1px #36464e; 
+        background:#3e404b; 
+    }
+
+    .bisnisusaharumahan-button-color:hover { 
+        background:#abafc9; 
+        border: solid 1px #bcbaba; 
+    }
+
+    .bisnisusaharumahan-button-color:active { 
+        color:#756e70; 
+        border: solid 1px #bcbaba; 
+    }
+
+    .contact-form-name { 
+        padding:5px 15px 5px 5px; 
+    }
+    </style>
+
